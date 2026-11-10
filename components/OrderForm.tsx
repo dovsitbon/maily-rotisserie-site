@@ -124,8 +124,8 @@ export function OrderForm() {
                   const it = ITEMS[l.item];
                   const nm = d.products[l.item].name;
                   return (
-                    <motion.li key={`${l.item}-${l.choice}`} layout initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0, height: 0 }} className="flex items-center gap-3 py-3">
-                      <div className="min-w-0 flex-1">
+                    <motion.li key={`${l.item}-${l.choice}`} layout initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0, height: 0 }} className="flex flex-wrap items-center gap-x-3 gap-y-2 py-3">
+                      <div className="min-w-0 basis-full sm:basis-0 sm:flex-1">
                         <p className="font-semibold">
                           {nm}
                           {l.choice && <span className="font-normal text-muted"> · {d.choices[l.choice as keyof typeof d.choices]}</span>}
@@ -144,7 +144,7 @@ export function OrderForm() {
                           <PlusIcon />
                         </button>
                       </div>
-                      <span className="w-20 text-end font-semibold tabular-nums">{it.price === null ? "—" : price(it.price * l.qty, lang)}</span>
+                      <span className="ms-auto w-20 text-end font-semibold tabular-nums sm:ms-0">{it.price === null ? "—" : price(it.price * l.qty, lang)}</span>
                       <button type="button" className="flex h-10 w-10 items-center justify-center rounded-full text-muted hover:bg-cream-deep hover:text-red" onClick={() => setQty(l.item, l.choice, 0)} aria-label={`${d.order.remove} ${nm}`}>
                         <CloseIcon className="h-4 w-4" />
                       </button>
