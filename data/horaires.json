@@ -1,0 +1,17 @@
+{
+  "_doc": "Horaires (heure de Paris), À CONFIRMER avec Maily. 1 = lundi … 7 = dimanche. exceptions : fermetures ou horaires spéciaux datés (AAAA-MM-JJ), « closed » ou des créneaux. Le statut « Ouvert / Fermé » et les créneaux de retrait en dépendent.",
+  "timezone": "Europe/Paris",
+  "week": {
+    "1": [],
+    "2": [["10:30", "14:00"], ["17:00", "19:30"]],
+    "3": [["10:30", "14:00"], ["17:00", "19:30"]],
+    "4": [["10:30", "14:00"], ["17:00", "19:30"]],
+    "5": [["10:30", "14:00"], ["17:00", "19:30"]],
+    "6": [["10:30", "14:00"], ["17:00", "19:30"]],
+    "7": []
+  },
+  "exceptions": [
+    { "date": "2026-12-25", "closed": true },
+    { "date": "2027-01-01", "closed": true }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "_doc": "La carte. Prix relevés sur la carte publiée par Maily sur Instagram (21 mai 2026), À VALIDER avec Maily. price null = « prix au comptoir » (À REMPLIR). from: true = affiché « à partir de ». unit « piece » = prix à la pièce. choices = parfum à choisir (noms dans locales/*.json → choices). onOrder = sur commande (retrait au plus tôt site.order.advanceDays jour(s) après). photo = emplacements, du plus précis au plus général : le dessin illus s'affiche tant qu'aucune photo n'existe. Noms et descriptions : locales/*.json → products.",
+  "checked": "2026-05-21",
+  "categories": [
+    { "id": "banh-mi", "items": ["banh-mi-poulet", "banh-mi-boeuf", "banh-mi-vege"] },
+    { "id": "bo-bun", "items": ["bun-boeuf", "bun-poulet", "bun-vege"] },
+    { "id": "nems", "items": ["nem-poulet", "nem-crevette", "samoussa-crevette"] },
+    { "id": "box", "items": ["box-saveur", "box-decouverte", "pad-viet"] },
+    { "id": "rotisserie", "items": ["poulet-roti", "box-grillade"] },
+    { "id": "menus", "items": ["formule"] },
+    { "id": "desserts", "items": ["che", "fondant", "liegeois", "crumble", "boissons"] }
+  ],
+  "items": {
+    "banh-mi-poulet": { "price": 6.5, "tags": ["halal"], "photo": ["/media/plats/banh-mi-poulet.jpg", "/media/plats/banh-mi.jpg"], "illus": "banhmi" },
+    "banh-mi-boeuf": { "price": 7, "tags": [], "photo": ["/media/plats/banh-mi-boeuf.jpg", "/media/plats/banh-mi.jpg"], "illus": "banhmi" },
+    "banh-mi-vege": { "price": 6, "tags": ["vege"], "photo": ["/media/plats/banh-mi-vege.jpg"], "illus": "banhmi" },
+    "bun-boeuf": { "price": 8.5, "tags": [], "photo": ["/media/plats/bo-bun.jpg"], "illus": "bowl" },
+    "bun-poulet": { "price": 8.5, "tags": ["halal"], "photo": ["/media/plats/bun-poulet.jpg"], "illus": "bowl" },
+    "bun-vege": { "price": 8.5, "tags": ["vege"], "photo": ["/media/plats/bun-vege.jpg"], "illus": "bowl" },
+    "nem-poulet": { "price": 1, "unit": "piece", "tags": ["halal"], "photo": ["/media/plats/nems.jpg"], "illus": "nem" },
+    "nem-crevette": { "price": 1, "unit": "piece", "tags": [], "photo": ["/media/plats/nems-crevette.jpg", "/media/plats/nems.jpg"], "illus": "nem" },
+    "samoussa-crevette": { "price": 0.5, "unit": "piece", "tags": [], "photo": ["/media/plats/samoussas.jpg"], "illus": "samosa" },
+    "box-saveur": { "price": 7.5, "choices": ["poulet-sate", "poulet-caramel", "poulet-curry", "boeuf-5-parfums", "boeuf-sate", "crevette-sate"], "tags": [], "photo": ["/media/plats/box-saveur.jpg"], "illus": "box" },
+    "box-decouverte": { "price": 9, "tags": [], "photo": ["/media/plats/box-decouverte.jpg"], "illus": "box" },
+    "pad-viet": { "price": 8, "tags": ["halal"], "photo": ["/media/plats/pad-viet.jpg"], "illus": "noodles" },
+    "poulet-roti": { "price": 16.5, "choices": ["5-parfums", "curry-curcuma"], "onOrder": true, "tags": ["halal"], "photo": ["/media/plats/poulet-roti.jpg"], "illus": "chicken" },
+    "box-grillade": { "price": 17.5, "onOrder": true, "tags": [], "photo": ["/media/plats/box-grillade.jpg"], "illus": "skewer" },
+    "formule": { "price": 10.5, "from": true, "tags": [], "photo": ["/media/plats/formule.jpg"], "illus": "tray" },
+    "che": { "price": 3.5, "choices": ["banane", "banane-fraise", "mangue", "mangue-fraise"], "tags": ["vege"], "photo": ["/media/plats/che.jpg"], "illus": "glass" },
+    "fondant": { "price": null, "tags": ["vege"], "photo": ["/media/plats/fondant.jpg"], "illus": "cake" },
+    "liegeois": { "price": null, "tags": ["vege"], "photo": ["/media/plats/liegeois.jpg"], "illus": "cup" },
+    "crumble": { "price": null, "tags": ["vege"], "photo": ["/media/plats/crumble.jpg"], "illus": "cake" },
+    "boissons": { "price": null, "tags": [], "photo": ["/media/plats/boissons.jpg"], "illus": "can" }
+  }
+}

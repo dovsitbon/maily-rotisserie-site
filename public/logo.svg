@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 130" width="400" height="130">
+<g transform="translate(-14 2)"><path d="M52 37C40 27 41 12 50 6c0 9 5 13 9 9 2-6 8-11 15-11-3 7-1 12 4 11 4-1 8 0 11 4-7 3-9 9-11 15L66 44Z" fill="#B3261E"/><path d="M52 58C30 64 19 85 25 103c6 16 27 22 46 15-20-2-33-14-32-31 1-12 6-22 13-29Z" fill="#B3261E"/><path d="M64 31a16 16 0 1 1-1 0Z" fill="#B3261E"/><path d="M70 59c2 9-3 15-8 13-4-2-3-9 8-13Z" fill="#B3261E"/><path d="M78 40 95 46 78 52Z" fill="#F2C14E"/><path d="M69.5 41.5a2.6 2.6 0 1 1-.1 0Z" fill="#FBF5EA"/></g>
+<g transform="translate(98 22) scale(1.1)"><g fill="none" stroke="#B3261E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"><path d="M6 66V12l24 34 24-34v54"/><path d="M72 66 96 12l24 54M82 46h28"/><path d="M140 26v40"/><path d="M160 12v54h36"/><path d="M206 12l24 28 24-28M230 40v26"/></g><path d="M140 2c-6 6-7 12-3 16 1-4 3-5 3-5s2 3 0 6c5-1 7-7 0-17Z" fill="#F2C14E"/></g>
+<text x="100" y="118" font-family="Inter, Arial, Helvetica, sans-serif" font-size="15.5" font-weight="600" letter-spacing="3.6" fill="#1A1A1A">RÔTISSERIE VIETNAMIENNE</text>
+</svg>

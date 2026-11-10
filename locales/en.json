@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Vietnamese rotisserie, banh mi and bo bun in Amiens | Maily",
+    "description": "Vietnamese rotisserie on rue de Beauvais, Amiens: homemade banh mi, bo bun, spring rolls and roast chicken. 5/5 on Google. Order takeaway on WhatsApp.",
+    "ogAlt": "Two Maily banh mi on the terrace, rue de Beauvais in Amiens"
+  },
+  "intro": { "skip": "Skip" },
+  "announce": { "close": "Close message" },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Maily, home",
+    "carte": "Menu",
+    "order": "Order",
+    "infos": "Info",
+    "instagram": "Instagram",
+    "menu": "Menu",
+    "close": "Close menu",
+    "lang": "Language",
+    "call": "Call",
+    "route": "Directions",
+    "orderCta": "Order",
+    "cart": "My order",
+    "cartCount": "{count} item(s) in your order"
+  },
+  "hero": {
+    "eyebrow": "Vietnamese rotisserie · Rue de Beauvais, Amiens",
+    "title": "Saigon, on Rue de Beauvais.",
+    "sub": "Crusty banh mi, fresh bo bun, spring rolls and roast meats. All homemade, all to take away.",
+    "ctaOrder": "Order",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5",
+    "ratingCount": "{count} Google reviews",
+    "ratingNote": "Google rating checked on {date}"
+  },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "tiles": {
+    "title": "Our specialities",
+    "items": {
+      "banh-mi": "Banh mi",
+      "bo-bun": "Bo bun",
+      "nems": "Spring rolls",
+      "rotisserie": "Rotisserie",
+      "menus": "Meal deals",
+      "desserts": "Desserts and drinks"
+    },
+    "from": "from {price}"
+  },
+  "services": {
+    "title": "How it works",
+    "items": [
+      { "title": "Takeaway", "text": "Lunchtime and late afternoon." },
+      { "title": "WhatsApp ordering", "text": "Your basket goes out in one message." },
+      { "title": "Homemade", "text": "Marinades, spring rolls, desserts: all made here." },
+      { "title": "5/5 on Google", "text": "{count} reviews, all five stars." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Made here, served fast.",
+    "intro": "Pick, add, send. We'll tell you when it's ready.",
+    "tabsLabel": "Menu categories",
+    "tabs": {
+      "banh-mi": "Banh mi",
+      "bo-bun": "Bo bun",
+      "nems": "Spring rolls",
+      "box": "Boxes and mains",
+      "rotisserie": "Rotisserie",
+      "menus": "Meal deals",
+      "desserts": "Desserts and drinks"
+    },
+    "add": "Add",
+    "added": "Added",
+    "addLabel": "Add {name} to the order",
+    "inCart": "{count} in the order",
+    "from": "from {price}",
+    "perPiece": "{price} each",
+    "counterPrice": "Price at the counter",
+    "choice": "Flavour",
+    "onOrder": "Pre-order",
+    "halal": "Halal chicken",
+    "vege": "Vegetarian",
+    "checked": "Prices from Maily's menu ({date}). They may change: the receipt is final.",
+    "seeFull": "The full menu on one page",
+    "halalNote": "All our chicken recipes are halal."
+  },
+  "blocks": [
+    {
+      "eyebrow": "Homemade rotisserie",
+      "title": "Roast chicken, the Saigon way.",
+      "text": "A whole chicken with five spices or curry and turmeric. Beef and prawn skewers, sliced duck breast. Order the day before, share it in the evening.",
+      "cta": "See the menu",
+      "photoNote": "Photo spot: the roast chicken"
+    },
+    {
+      "eyebrow": "Quick lunch",
+      "title": "Ordered at quarter to twelve. Eaten at noon.",
+      "text": "Crusty bread, fresh coriander, meat marinated in-house. Order from the office, we'll see you at the counter.",
+      "cta": "Order"
+    },
+    {
+      "eyebrow": "Parties and offices",
+      "title": "Platters for everyone.",
+      "text": "Birthday, thesis defence, seminar, drinks: spring rolls, mini banh mi, skewers, chè. Tell us how many you are, we'll put it together.",
+      "cta": "Ask for a quote",
+      "photoNote": "Photo spot: a catering platter",
+      "quoteMessage": "Bonjour Maily, I'd like a quote for a catering platter.\nOccasion:\nDate:\nNumber of people:"
+    }
+  ],
+  "reviews": {
+    "eyebrow": "What people say",
+    "title": "{count} Google reviews. Enough said.",
+    "text": "Banh mi, bo bun, spring rolls, the fondant: these are what come up most in the reviews.",
+    "cta": "Read the reviews on Google"
+  },
+  "infos": {
+    "eyebrow": "Visit us",
+    "title": "See you at number 17.",
+    "address": "Address",
+    "phone": "Phone and WhatsApp",
+    "hours": "Opening hours",
+    "access": "Getting here",
+    "accessText": "Rue de Beauvais, in central Amiens. A small terrace on sunny days. Easiest: order ahead, drop by, leave with your bag.",
+    "route": "Directions",
+    "mapTitle": "Map to Maily, 17 rue de Beauvais in Amiens",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "closed": "Closed",
+    "whatsapp": "Message on WhatsApp",
+    "photoNote": "Photo spot: the shopfront"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Good to know.",
+    "items": [
+      {
+        "q": "How do I order?",
+        "a": "Add your dishes from the menu, pick a pick-up time, then send the order on WhatsApp. Maily confirms by message. You can also call +33 6 25 65 72 12."
+      },
+      {
+        "q": "What are your opening hours?",
+        "a": "Tuesday to Saturday, 10:30 am to 2 pm and 5 pm to 7:30 pm. Closed on Sundays and Mondays. Any special closures are shown at the top of the site."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "You pay in the shop when you pick up your order."
+      },
+      {
+        "q": "Is the chicken halal?",
+        "a": "Yes, all our chicken recipes are halal. A question about another dish? Just ask, we're happy to help."
+      },
+      {
+        "q": "Do I need to pre-order the roast chicken?",
+        "a": "Yes. The roast chicken and the grill discovery box are made to order: place your order the day before at the latest."
+      },
+      {
+        "q": "Do you do platters for events?",
+        "a": "Yes: birthdays, thesis defences, seminars, meetings, drinks. Spring rolls, samosas, mini banh mi, skewers and desserts, on quote. Message us on WhatsApp with the date and number of guests."
+      }
+    ]
+  },
+  "order": {
+    "eyebrow": "Takeaway order",
+    "title": "Your order.",
+    "intro": "Pick your time, we cook. You pay in the shop.",
+    "cartTitle": "Your basket",
+    "empty": "Your basket is empty for now.",
+    "emptyCta": "See the menu",
+    "less": "Remove one {name}",
+    "more": "Add one {name}",
+    "remove": "Remove",
+    "total": "Total",
+    "totalFrom": "Total, from",
+    "counterNote": "+ items priced at the counter",
+    "pickup": "Pick-up",
+    "day": "Day",
+    "time": "Time",
+    "noSlot": "No slots left this week: please give us a call.",
+    "onOrderNote": "Your order includes a made-to-order item: pick-up from {day}.",
+    "name": "Your name",
+    "phone": "Your phone",
+    "notes": "Notes",
+    "notesPh": "No coriander, the 3 meats for the discovery box, meal deal details…",
+    "send": "Send on WhatsApp",
+    "sendNote": "WhatsApp opens with your order already written: just press send.",
+    "sent": "Your order is ready in WhatsApp. Remember to press “Send”.",
+    "payOnline": "Pay online",
+    "callTitle": "Easier by phone?",
+    "callText": "Call Maily during opening hours.",
+    "callCta": "Call",
+    "fixFields": "A few details are missing:",
+    "errors": {
+      "cart": "Add at least one item.",
+      "day": "Choose a pick-up day.",
+      "time": "Choose a pick-up time.",
+      "name": "Enter your name.",
+      "phone": "Enter a valid phone number."
+    },
+    "toast": "{name} added",
+    "toastCta": "View my order"
+  },
+  "footer": {
+    "tagline": "Banh mi, bo bun, spring rolls and rotisserie, all homemade.",
+    "hours": "Opening hours",
+    "contact": "Contact",
+    "follow": "Follow us",
+    "legal": "Legal notice",
+    "pages": "Discover"
+  },
+  "choices": {
+    "poulet-sate": "Satay chicken",
+    "poulet-caramel": "Caramel chicken",
+    "poulet-curry": "Lime curry chicken",
+    "boeuf-5-parfums": "Five-spice beef",
+    "boeuf-sate": "Satay beef",
+    "crevette-sate": "Satay prawn",
+    "5-parfums": "Five spices",
+    "curry-curcuma": "Curry and turmeric",
+    "banane": "Banana",
+    "banane-fraise": "Banana and strawberry",
+    "mangue": "Mango",
+    "mangue-fraise": "Mango and strawberry"
+  },
+  "products": {
+    "banh-mi-poulet": { "name": "Chicken banh mi", "desc": "Crusty baguette, marinated chicken, carrots, fresh coriander." },
+    "banh-mi-boeuf": { "name": "Beef banh mi", "desc": "Crusty baguette, marinated beef, carrots, fresh coriander." },
+    "banh-mi-vege": { "name": "Veggie banh mi", "desc": "The same baguette, filled with vegetables." },
+    "bun-boeuf": { "name": "Beef bo bun", "desc": "Rice vermicelli, stir-fried beef, raw veg, crispy onions." },
+    "bun-poulet": { "name": "Chicken bun", "desc": "Rice vermicelli, chicken, raw veg, crispy onions." },
+    "bun-vege": { "name": "Vegetarian bun", "desc": "Rice vermicelli, vegetables, raw veg, crispy onions." },
+    "nem-poulet": { "name": "Chicken spring roll", "desc": "Rolled and fried in-house. Crispy." },
+    "nem-crevette": { "name": "Prawn spring roll", "desc": "Rolled and fried in-house." },
+    "samoussa-crevette": { "name": "Prawn samosa", "desc": "A small, crispy triangle." },
+    "box-saveur": { "name": "Flavour box", "desc": "One meat of your choice, on rice." },
+    "box-decouverte": { "name": "Discovery box", "desc": "Three meats of your choice on coconut curry rice." },
+    "pad-viet": { "name": "Pad viet", "desc": "Stir-fried rice noodles, chicken, omelette." },
+    "poulet-roti": { "name": "Whole roast chicken", "desc": "Five spices or curry and turmeric. Order the day before." },
+    "box-grillade": { "name": "Grill discovery box", "desc": "Satay prawn skewers, five-spice beef, lemongrass curry chicken, sliced duck breast." },
+    "formule": { "name": "Meal deal", "desc": "A main, a dessert, a drink. The price depends on the main: tell us which in the notes." },
+    "che": { "name": "Chè", "desc": "The Vietnamese coconut milk dessert, with fruit." },
+    "fondant": { "name": "The fondant", "desc": "Homemade, depending on the day. Ask if there's any left." },
+    "liegeois": { "name": "Chocolate coconut liégeois", "desc": "Chocolate, cream, coconut." },
+    "crumble": { "name": "Fruit crumble", "desc": "Seasonal fruit, crunchy topping." },
+    "boissons": { "name": "Cold drinks", "desc": "Today's choice is waiting in the fridge." }
+  },
+  "alt": {
+    "banh-mi-terrasse": "Two chicken and beef banh mi on a tray, in front of Maily's chalkboard, rue de Beauvais",
+    "banh-mi": "Two banh mi filled with carrots and fresh coriander",
+    "bo-bun": "Beef bo bun with crispy onions in Maily's display",
+    "baguettes-coriandre": "Golden baguettes and a bunch of coriander on the worktop"
+  },
+  "pages": {
+    "carte": {
+      "slug": "menu",
+      "metaTitle": "Menu: banh mi, bo bun, spring rolls and prices | Maily Amiens",
+      "metaDescription": "Maily's menu in Amiens with prices: banh mi from €6, bo bun €8.50, spring rolls €1 each, roast chicken, boxes and chè. Takeaway, order on WhatsApp.",
+      "eyebrow": "Rue de Beauvais, Amiens",
+      "title": "The menu",
+      "lead": "Everything is made here. Add, pick a time, we do the rest."
+    },
+    "commander": {
+      "slug": "order",
+      "metaTitle": "Order takeaway | Maily, Vietnamese rotisserie in Amiens",
+      "metaDescription": "Order banh mi, bo bun and spring rolls from Maily in Amiens: pick a pick-up time, send the order on WhatsApp, it's ready when you arrive.",
+      "title": "Order takeaway",
+      "lead": "Your basket, your pick-up time, and off it goes on WhatsApp."
+    },
+    "banhMi": {
+      "slug": "banh-mi-amiens",
+      "metaTitle": "Banh mi in Amiens: chicken, beef or veggie from €6 | Maily",
+      "metaDescription": "Maily's banh mi, rue de Beauvais in Amiens: crusty baguette, homemade marinated meat, carrots and coriander. Halal chicken, beef or veggie, to take away.",
+      "eyebrow": "Banh mi in Amiens",
+      "title": "Banh mi, on Rue de Beauvais.",
+      "lead": "A crusty baguette, meat marinated in-house, carrots, coriander. Saigon's sandwich, made here in Amiens.",
+      "sections": [
+        {
+          "title": "What's inside",
+          "text": "The baguette is crusty outside and light inside. We fill it with homemade marinated meat, carrots and fresh coriander. It's the dish our customers mention most in their reviews."
+        },
+        {
+          "title": "Three versions",
+          "text": "Chicken (halal), beef, or veggie. For lunch, add spring rolls at €1 each or a chè for dessert."
+        },
+        {
+          "title": "Ready when you arrive",
+          "text": "Order on the site, pick a time, the order goes out on WhatsApp. Drop by 17 rue de Beauvais, it's ready."
+        }
+      ],
+      "items": ["banh-mi-poulet", "banh-mi-boeuf", "banh-mi-vege", "nem-poulet"],
+      "photo": "/media/plats/banh-mi.jpg"
+    },
+    "boBun": {
+      "slug": "bo-bun-amiens",
+      "metaTitle": "Bo bun in Amiens: beef, chicken or veggie, €8.50 | Maily",
+      "metaDescription": "Maily's bo bun in Amiens: rice vermicelli, stir-fried beef, raw veg and crispy onions. Also with halal chicken or vegetarian. Takeaway, rue de Beauvais.",
+      "eyebrow": "Bo bun in Amiens",
+      "title": "Bo bun, fresh and generous.",
+      "lead": "Rice vermicelli, stir-fried beef, crunchy raw veg and crispy onions. A full lunch bowl for €8.50.",
+      "sections": [
+        {
+          "title": "The bowl, layer by layer",
+          "text": "Rice vermicelli and raw veg at the bottom. The stir-fried meat and crispy onions on top. Mix it all just before eating."
+        },
+        {
+          "title": "Beef, chicken or veggie",
+          "text": "Classic bo bun is made with beef. There's also a chicken version (halal) and a vegetarian one, same price."
+        },
+        {
+          "title": "To take away, no waiting",
+          "text": "Order before you leave, it goes out on WhatsApp. At 17 rue de Beauvais, your bowl is ready."
+        }
+      ],
+      "items": ["bun-boeuf", "bun-poulet", "bun-vege", "nem-crevette"],
+      "photo": "/media/plats/bo-bun.jpg"
+    },
+    "legal": {
+      "slug": "legal",
+      "metaTitle": "Legal notice | Maily Rôtisserie Vietnamienne",
+      "title": "Legal notice",
+      "editor": "Publisher",
+      "siret": "SIRET",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "This site collects no data: your order is written in your browser and sent by you on WhatsApp. Your basket is only stored on your device. No advertising cookies, no tracking.",
+      "photos": "Photos and logo",
+      "photosText": "Photos and logo: Maily Rôtisserie Vietnamienne. Do not reproduce without permission.",
+      "toConfirm": "To be completed"
+    }
+  }
+}

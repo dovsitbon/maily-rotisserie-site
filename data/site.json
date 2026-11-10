@@ -1,0 +1,31 @@
+{
+  "_doc": "Coordonnées et réglages généraux. rating : note Google relevée à la main (mettre à jour value, count et checked). « À REMPLIR » : à demander au commerce (voir INFOS-A-DEMANDER.md).",
+  "name": "Maily",
+  "fullName": "Maily Rôtisserie Vietnamienne",
+  "url": "https://maily-rotisserie.vercel.app",
+  "phone": "06 25 65 72 12",
+  "phoneIntl": "+33625657212",
+  "whatsapp": "33625657212",
+  "email": "",
+  "address": { "street": "17 rue de Beauvais", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.8928, "lng": 2.294 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Maily+r%C3%B4tisserie+vietnamienne+17+rue+de+Beauvais+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=17+rue+de+Beauvais,+80000+Amiens&z=17&output=embed",
+  "instagram": "https://www.instagram.com/maily.rotisserie/",
+  "instagramHandle": "@maily.rotisserie",
+  "rating": { "value": 5, "count": 67, "source": "Google", "checked": "2026-11-10" },
+  "order": {
+    "_doc": "Créneaux de retrait : toutes les stepMinutes pendant les horaires, au plus tôt minutesAhead après la commande ; daysAhead jours proposés. Produits « sur commande » (rôtisserie) : au plus tôt advanceDays jour(s) plus tard (à confirmer avec Maily).",
+    "minutesAhead": 20,
+    "stepMinutes": 15,
+    "daysAhead": 6,
+    "advanceDays": 1,
+    "maxPerLine": 30
+  },
+  "payment": {
+    "_doc": "Paiement en ligne prévu mais désactivé : passer enabled à true ET définir STRIPE_SECRET_KEY sur Vercel pour l'activer (app/api/checkout). Sinon, paiement au retrait.",
+    "enabled": false,
+    "provider": "stripe"
+  },
+  "legal": { "company": "Maily Rôtisserie Vietnamienne", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

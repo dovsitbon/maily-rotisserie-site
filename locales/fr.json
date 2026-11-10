@@ -1,0 +1,336 @@
+{
+  "meta": {
+    "title": "Rôtisserie vietnamienne, banh mi et bo bun à Amiens | Maily",
+    "description": "Rôtisserie vietnamienne rue de Beauvais à Amiens : banh mi, bo bun, nems et poulet rôti maison. 5/5 sur Google. À emporter, commande par WhatsApp.",
+    "ogAlt": "Deux banh mi Maily sur la terrasse, rue de Beauvais à Amiens"
+  },
+  "intro": { "skip": "Passer" },
+  "announce": { "close": "Fermer le message" },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Maily, accueil",
+    "carte": "La carte",
+    "order": "Commander",
+    "infos": "Infos",
+    "instagram": "Instagram",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "lang": "Langue",
+    "call": "Appeler",
+    "route": "Itinéraire",
+    "orderCta": "Commander",
+    "cart": "Ma commande",
+    "cartCount": "{count} article(s) dans votre commande"
+  },
+  "hero": {
+    "eyebrow": "Rôtisserie vietnamienne · Rue de Beauvais, Amiens",
+    "title": "Saïgon, rue de Beauvais.",
+    "sub": "Banh mi croustillants, bo bun frais, nems et viandes rôties. Tout est fait maison, à emporter.",
+    "ctaOrder": "Commander",
+    "ctaMenu": "Voir la carte",
+    "rating": "{value}/5",
+    "ratingCount": "{count} avis Google",
+    "ratingNote": "Note Google relevée le {date}"
+  },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "tiles": {
+    "title": "Nos spécialités",
+    "items": {
+      "banh-mi": "Banh mi",
+      "bo-bun": "Bo bun",
+      "nems": "Nems",
+      "rotisserie": "Rôtisserie",
+      "menus": "Menus",
+      "desserts": "Desserts et boissons"
+    },
+    "from": "dès {price}"
+  },
+  "services": {
+    "title": "Comment ça marche",
+    "items": [
+      { "title": "À emporter", "text": "Le midi et en fin d'après-midi." },
+      { "title": "Commande WhatsApp", "text": "Votre panier part en un message." },
+      { "title": "Fait maison", "text": "Marinades, nems, desserts : tout ici." },
+      { "title": "5/5 sur Google", "text": "{count} avis, que des cinq étoiles." }
+    ]
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "Fait ici, servi vite.",
+    "intro": "Choisissez, ajoutez, envoyez. On vous prévient quand c'est prêt.",
+    "tabsLabel": "Catégories de la carte",
+    "tabs": {
+      "banh-mi": "Banh mi",
+      "bo-bun": "Bo bun",
+      "nems": "Nems",
+      "box": "Box et plats",
+      "rotisserie": "Rôtisserie",
+      "menus": "Menus",
+      "desserts": "Desserts et boissons"
+    },
+    "add": "Ajouter",
+    "added": "Ajouté",
+    "addLabel": "Ajouter {name} à la commande",
+    "inCart": "{count} dans la commande",
+    "from": "à partir de {price}",
+    "perPiece": "{price} la pièce",
+    "counterPrice": "Prix au comptoir",
+    "choice": "Parfum",
+    "onOrder": "Sur commande",
+    "halal": "Poulet halal",
+    "vege": "Végétarien",
+    "checked": "Prix de la carte Maily ({date}). Ils peuvent évoluer : le ticket fait foi.",
+    "seeFull": "La carte en une page",
+    "halalNote": "Toutes nos recettes au poulet sont halal."
+  },
+  "blocks": [
+    {
+      "eyebrow": "La rôtisserie maison",
+      "title": "Le poulet rôti, comme là-bas.",
+      "text": "Poulet entier aux cinq parfums ou au curry curcuma. Brochettes de bœuf, de crevettes, magret de canard. Ça se commande la veille, ça se partage le soir.",
+      "cta": "Voir la carte",
+      "photoNote": "Emplacement photo : le poulet rôti"
+    },
+    {
+      "eyebrow": "Le midi rapide",
+      "title": "Commandé à midi moins le quart. Mangé à midi.",
+      "text": "Le pain croustille, la coriandre est fraîche, la viande est marinée maison. Vous commandez du bureau, on vous attend au comptoir.",
+      "cta": "Commander"
+    },
+    {
+      "eyebrow": "Fêtes et bureaux",
+      "title": "Des plateaux pour tout le monde.",
+      "text": "Anniversaire, soutenance, séminaire, cocktail : nems, mini banh mi, brochettes, chè. Dites-nous combien vous êtes, on compose le reste.",
+      "cta": "Demander un devis",
+      "photoNote": "Emplacement photo : un plateau traiteur",
+      "quoteMessage": "Bonjour Maily, je voudrais un devis pour un plateau traiteur.\nOccasion :\nDate :\nNombre de personnes :"
+    }
+  ],
+  "reviews": {
+    "eyebrow": "Ils en parlent",
+    "title": "{count} avis Google. Rien à ajouter.",
+    "text": "Le banh mi, le bo bun, les nems, le fondant : ce sont eux qui reviennent le plus dans les avis.",
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "On vous attend au 17.",
+    "address": "Adresse",
+    "phone": "Téléphone et WhatsApp",
+    "hours": "Horaires",
+    "access": "Accès",
+    "accessText": "Rue de Beauvais, dans le centre d'Amiens. Petite terrasse aux beaux jours. Le plus simple : commander avant, passer, repartir avec le sac.",
+    "route": "Itinéraire",
+    "mapTitle": "Plan d'accès à Maily, 17 rue de Beauvais à Amiens",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "closed": "Fermé",
+    "whatsapp": "Écrire sur WhatsApp",
+    "photoNote": "Emplacement photo : la devanture"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Bon à savoir.",
+    "items": [
+      {
+        "q": "Comment commander ?",
+        "a": "Ajoutez vos plats depuis la carte, choisissez l'heure de retrait, puis envoyez la commande sur WhatsApp. Maily vous confirme par message. Vous pouvez aussi appeler le 06 25 65 72 12."
+      },
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Du mardi au samedi, de 10 h 30 à 14 h et de 17 h à 19 h 30. Fermé le dimanche et le lundi. Les fermetures exceptionnelles sont annoncées en haut du site."
+      },
+      {
+        "q": "Comment payer ?",
+        "a": "Vous réglez sur place, au moment de récupérer votre commande."
+      },
+      {
+        "q": "Le poulet est-il halal ?",
+        "a": "Oui, toutes nos recettes au poulet sont halal. Une question sur un autre plat ? Demandez-nous, on vous répond volontiers."
+      },
+      {
+        "q": "Faut-il réserver le poulet rôti ?",
+        "a": "Oui. Le poulet rôti et la box découverte grillade sont préparés sur commande : passez-la au plus tard la veille."
+      },
+      {
+        "q": "Faites-vous des plateaux pour un événement ?",
+        "a": "Oui : anniversaire, soutenance, séminaire, réunion, cocktail. Nems, samoussas, mini banh mi, brochettes et desserts, sur devis. Écrivez-nous sur WhatsApp avec la date et le nombre de personnes."
+      }
+    ]
+  },
+  "order": {
+    "eyebrow": "Commande à emporter",
+    "title": "Votre commande.",
+    "intro": "Choisissez l'heure de retrait, on prépare. Paiement sur place.",
+    "cartTitle": "Votre panier",
+    "empty": "Votre panier est vide pour l'instant.",
+    "emptyCta": "Voir la carte",
+    "less": "Retirer un {name}",
+    "more": "Ajouter un {name}",
+    "remove": "Supprimer",
+    "total": "Total",
+    "totalFrom": "Total, à partir de",
+    "counterNote": "+ articles au prix du comptoir",
+    "pickup": "Retrait",
+    "day": "Jour",
+    "time": "Heure",
+    "noSlot": "Plus de créneau disponible cette semaine : appelez-nous.",
+    "onOrderNote": "Votre commande contient un produit sur commande : retrait à partir de {day}.",
+    "name": "Votre nom",
+    "phone": "Votre téléphone",
+    "notes": "Remarques",
+    "notesPh": "Sans coriandre, parfum des 3 viandes de la box découverte, détail de la formule…",
+    "send": "Envoyer sur WhatsApp",
+    "sendNote": "WhatsApp s'ouvre avec votre commande déjà écrite : il ne reste qu'à l'envoyer.",
+    "sent": "Commande prête dans WhatsApp. Pensez à appuyer sur « Envoyer ».",
+    "payOnline": "Payer en ligne",
+    "callTitle": "Plus simple au téléphone ?",
+    "callText": "Appelez Maily pendant les horaires d'ouverture.",
+    "callCta": "Appeler",
+    "fixFields": "Il manque quelques infos :",
+    "errors": {
+      "cart": "Ajoutez au moins un article.",
+      "day": "Choisissez un jour de retrait.",
+      "time": "Choisissez une heure de retrait.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide."
+    },
+    "toast": "{name} ajouté",
+    "toastCta": "Voir ma commande"
+  },
+  "footer": {
+    "tagline": "Banh mi, bo bun, nems et rôtisserie, faits maison.",
+    "hours": "Horaires",
+    "contact": "Contact",
+    "follow": "Suivez-nous",
+    "legal": "Mentions légales",
+    "pages": "À découvrir"
+  },
+  "choices": {
+    "poulet-sate": "Poulet saté",
+    "poulet-caramel": "Poulet caramel",
+    "poulet-curry": "Poulet curry citron vert",
+    "boeuf-5-parfums": "Bœuf cinq parfums",
+    "boeuf-sate": "Bœuf saté",
+    "crevette-sate": "Crevette saté",
+    "5-parfums": "Cinq parfums",
+    "curry-curcuma": "Curry curcuma",
+    "banane": "Banane",
+    "banane-fraise": "Banane fraise",
+    "mangue": "Mangue",
+    "mangue-fraise": "Mangue fraise"
+  },
+  "products": {
+    "banh-mi-poulet": { "name": "Banh mi poulet", "desc": "Baguette croustillante, poulet mariné, carottes, coriandre fraîche." },
+    "banh-mi-boeuf": { "name": "Banh mi bœuf", "desc": "Baguette croustillante, bœuf mariné, carottes, coriandre fraîche." },
+    "banh-mi-vege": { "name": "Banh mi végé", "desc": "La même baguette, garnie de légumes." },
+    "bun-boeuf": { "name": "Bo bun bœuf", "desc": "Vermicelles de riz, bœuf sauté, crudités, oignons frits." },
+    "bun-poulet": { "name": "Bun poulet", "desc": "Vermicelles de riz, poulet, crudités, oignons frits." },
+    "bun-vege": { "name": "Bun végétarien", "desc": "Vermicelles de riz, légumes, crudités, oignons frits." },
+    "nem-poulet": { "name": "Nem poulet", "desc": "Roulé et frit maison. Croustillant." },
+    "nem-crevette": { "name": "Nem crevette", "desc": "Roulé et frit maison." },
+    "samoussa-crevette": { "name": "Samoussa crevette", "desc": "Petit triangle croustillant." },
+    "box-saveur": { "name": "Box saveur", "desc": "Une viande au choix, sur son riz." },
+    "box-decouverte": { "name": "Box découverte", "desc": "Trois viandes au choix sur riz au curry coco." },
+    "pad-viet": { "name": "Pad viet", "desc": "Nouilles de riz sautées, poulet, omelette." },
+    "poulet-roti": { "name": "Poulet rôti entier", "desc": "Cinq parfums ou curry curcuma. À commander la veille." },
+    "box-grillade": { "name": "Box découverte grillade", "desc": "Brochettes crevettes saté, bœuf cinq parfums, poulet curry citronnelle, émincé de magret de canard." },
+    "formule": { "name": "Formule", "desc": "Un plat, un dessert, une boisson. Le prix dépend du plat choisi : précisez-le en remarque." },
+    "che": { "name": "Chè", "desc": "Le dessert vietnamien au lait de coco, aux fruits." },
+    "fondant": { "name": "Le fondant", "desc": "Maison, selon les jours. Demandez s'il en reste." },
+    "liegeois": { "name": "Liégeois chocolat coco", "desc": "Chocolat, crème, coco." },
+    "crumble": { "name": "Crumble aux fruits", "desc": "Fruits de saison, pâte sablée croustillante." },
+    "boissons": { "name": "Boissons fraîches", "desc": "Le choix du jour vous attend au frigo." }
+  },
+  "alt": {
+    "banh-mi-terrasse": "Deux banh mi poulet et bœuf sur un plateau, devant l'ardoise de Maily, rue de Beauvais",
+    "banh-mi": "Deux banh mi garnis de carottes et de coriandre fraîche",
+    "bo-bun": "Bo bun au bœuf et oignons frits dans la vitrine de Maily",
+    "baguettes-coriandre": "Baguettes dorées et botte de coriandre sur le plan de travail"
+  },
+  "pages": {
+    "carte": {
+      "slug": "carte",
+      "metaTitle": "La carte : banh mi, bo bun, nems et prix | Maily Amiens",
+      "metaDescription": "La carte de Maily à Amiens avec les prix : banh mi dès 6 €, bo bun 8,50 €, nems 1 € la pièce, poulet rôti, box et chè. À emporter, commande par WhatsApp.",
+      "eyebrow": "Rue de Beauvais, Amiens",
+      "title": "La carte",
+      "lead": "Tout est préparé ici. Ajoutez, choisissez l'heure, on s'occupe du reste."
+    },
+    "commander": {
+      "slug": "commander",
+      "metaTitle": "Commander à emporter | Maily, rôtisserie vietnamienne à Amiens",
+      "metaDescription": "Commandez vos banh mi, bo bun et nems chez Maily à Amiens : choisissez l'heure de retrait, envoyez la commande sur WhatsApp, c'est prêt à votre arrivée.",
+      "title": "Commander à emporter",
+      "lead": "Votre panier, votre heure de retrait, et c'est parti sur WhatsApp."
+    },
+    "banhMi": {
+      "slug": "banh-mi-amiens",
+      "metaTitle": "Banh mi à Amiens : poulet, bœuf ou végé dès 6 € | Maily",
+      "metaDescription": "Le banh mi de Maily, rue de Beauvais à Amiens : baguette croustillante, viande marinée maison, carottes et coriandre. Poulet halal, bœuf ou végé, à emporter.",
+      "eyebrow": "Banh mi à Amiens",
+      "title": "Le banh mi, rue de Beauvais.",
+      "lead": "Une baguette qui croustille, une viande marinée maison, des carottes, de la coriandre. Le sandwich de Saïgon, fait ici à Amiens.",
+      "sections": [
+        {
+          "title": "Ce qu'il y a dedans",
+          "text": "La baguette est croustillante dehors, légère dedans. On la garnit de viande marinée maison, de carottes et de coriandre fraîche. C'est le plat qui revient le plus souvent dans les avis de nos clients."
+        },
+        {
+          "title": "Trois versions",
+          "text": "Poulet (halal), bœuf, ou végé. Pour le midi, ajoutez des nems à 1 € la pièce ou un chè en dessert."
+        },
+        {
+          "title": "Prêt quand vous arrivez",
+          "text": "Commandez sur le site, choisissez l'heure, la commande part sur WhatsApp. Vous passez au 17 rue de Beauvais, c'est prêt."
+        }
+      ],
+      "items": ["banh-mi-poulet", "banh-mi-boeuf", "banh-mi-vege", "nem-poulet"],
+      "photo": "/media/plats/banh-mi.jpg"
+    },
+    "boBun": {
+      "slug": "bo-bun-amiens",
+      "metaTitle": "Bo bun à Amiens : bœuf, poulet ou végé, 8,50 € | Maily",
+      "metaDescription": "Le bo bun de Maily à Amiens : vermicelles de riz, bœuf sauté, crudités et oignons frits. Aussi au poulet halal ou végétarien. À emporter, rue de Beauvais.",
+      "eyebrow": "Bo bun à Amiens",
+      "title": "Le bo bun, frais et généreux.",
+      "lead": "Des vermicelles de riz, du bœuf sauté, des crudités qui croquent et des oignons frits. Le bol complet du midi, à 8,50 €.",
+      "sections": [
+        {
+          "title": "Le bol, couche par couche",
+          "text": "Au fond, les vermicelles de riz et les crudités. Par-dessus, la viande sautée et ses oignons frits. Vous mélangez juste avant de manger."
+        },
+        {
+          "title": "Bœuf, poulet ou végé",
+          "text": "Le bo bun classique se fait au bœuf. Il existe aussi au poulet (halal) et en version végétarienne, au même prix."
+        },
+        {
+          "title": "À emporter, sans attendre",
+          "text": "Commandez avant de partir, la commande part sur WhatsApp. Au 17 rue de Beauvais, votre bol est prêt."
+        }
+      ],
+      "items": ["bun-boeuf", "bun-poulet", "bun-vege", "nem-crevette"],
+      "photo": "/media/plats/bo-bun.jpg"
+    },
+    "legal": {
+      "slug": "mentions-legales",
+      "metaTitle": "Mentions légales | Maily Rôtisserie Vietnamienne",
+      "title": "Mentions légales",
+      "editor": "Éditeur du site",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Le site ne collecte aucune donnée : votre commande est rédigée dans votre navigateur puis envoyée par vous-même sur WhatsApp. Votre panier est gardé uniquement sur votre appareil. Aucun cookie publicitaire, aucun outil de suivi.",
+      "photos": "Photos et logo",
+      "photosText": "Photos et logo : Maily Rôtisserie Vietnamienne. Reproduction interdite sans accord.",
+      "toConfirm": "À compléter"
+    }
+  }
+}

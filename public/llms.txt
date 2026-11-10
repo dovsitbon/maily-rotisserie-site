@@ -1,0 +1,14 @@
+# Maily Rôtisserie Vietnamienne
+
+> Rôtisserie vietnamienne à emporter au 17 rue de Beauvais, 80000 Amiens (France). Banh mi, bo bun, nems, box, poulet rôti, chè. Recettes au poulet halal. Note Google 5,0/5 (67 avis). Commande à emporter par WhatsApp au +33 6 25 65 72 12.
+
+- Horaires : du mardi au samedi, 10 h 30 – 14 h et 17 h – 19 h 30.
+- Prix : banh mi 6 à 7 €, bun / bo bun 8,50 €, nems 1 € la pièce, poulet rôti entier 16,50 € (sur commande), formule à partir de 10,50 €.
+
+## Pages
+- [Accueil](https://maily-rotisserie.vercel.app/fr)
+- [La carte et les prix](https://maily-rotisserie.vercel.app/fr/carte)
+- [Commander à emporter](https://maily-rotisserie.vercel.app/fr/commander)
+- [Banh mi à Amiens](https://maily-rotisserie.vercel.app/fr/banh-mi-amiens)
+- [Bo bun à Amiens](https://maily-rotisserie.vercel.app/fr/bo-bun-amiens)
+- [English](https://maily-rotisserie.vercel.app/en)

@@ -1,0 +1,4 @@
+{
+  "_doc": "À REMPLIR avec de vrais avis clients (Google), recopiés avec l'accord de Maily et de leurs auteurs. Aucun avis inventé. Tant que la liste est vide, le site n'affiche que la note Google et un lien vers les avis. Format : { \"author\": \"Prénom N.\", \"date\": \"2026-10\", \"text\": \"…\", \"lang\": \"fr\" }",
+  "items": []
+}
