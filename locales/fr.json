@@ -4,8 +4,12 @@
     "description": "Rôtisserie vietnamienne rue de Beauvais à Amiens : banh mi, bo bun, nems et poulet rôti maison. 5/5 sur Google. À emporter, commande par WhatsApp.",
     "ogAlt": "Deux banh mi Maily sur la terrasse, rue de Beauvais à Amiens"
   },
-  "intro": { "skip": "Passer" },
-  "announce": { "close": "Fermer le message" },
+  "intro": {
+    "skip": "Passer"
+  },
+  "announce": {
+    "close": "Fermer le message"
+  },
   "nav": {
     "skip": "Aller au contenu",
     "home": "Maily, accueil",
@@ -55,10 +59,22 @@
   "services": {
     "title": "Comment ça marche",
     "items": [
-      { "title": "À emporter", "text": "Le midi et en fin d'après-midi." },
-      { "title": "Commande WhatsApp", "text": "Votre panier part en un message." },
-      { "title": "Fait maison", "text": "Marinades, nems, desserts : tout ici." },
-      { "title": "5/5 sur Google", "text": "{count} avis, que des cinq étoiles." }
+      {
+        "title": "À emporter",
+        "text": "Le midi et en fin d'après-midi."
+      },
+      {
+        "title": "Commande WhatsApp",
+        "text": "Votre panier part en un message."
+      },
+      {
+        "title": "Fait maison",
+        "text": "Marinades, nems, desserts : tout ici."
+      },
+      {
+        "title": "5/5 sur Google",
+        "text": "{count} avis, que des cinq étoiles."
+      }
     ]
   },
   "carte": {
@@ -129,7 +145,15 @@
     "accessText": "Rue de Beauvais, dans le centre d'Amiens. Petite terrasse aux beaux jours. Le plus simple : commander avant, passer, repartir avec le sac.",
     "route": "Itinéraire",
     "mapTitle": "Plan d'accès à Maily, 17 rue de Beauvais à Amiens",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
     "closed": "Fermé",
     "whatsapp": "Écrire sur WhatsApp",
     "photoNote": "Emplacement photo : la devanture"
@@ -227,32 +251,113 @@
     "mangue-fraise": "Mangue fraise"
   },
   "products": {
-    "banh-mi-poulet": { "name": "Banh mi poulet", "desc": "Baguette croustillante, poulet mariné, carottes, coriandre fraîche." },
-    "banh-mi-boeuf": { "name": "Banh mi bœuf", "desc": "Baguette croustillante, bœuf mariné, carottes, coriandre fraîche." },
-    "banh-mi-vege": { "name": "Banh mi végé", "desc": "La même baguette, garnie de légumes." },
-    "bun-boeuf": { "name": "Bo bun bœuf", "desc": "Vermicelles de riz, bœuf sauté, crudités, oignons frits." },
-    "bun-poulet": { "name": "Bun poulet", "desc": "Vermicelles de riz, poulet, crudités, oignons frits." },
-    "bun-vege": { "name": "Bun végétarien", "desc": "Vermicelles de riz, légumes, crudités, oignons frits." },
-    "nem-poulet": { "name": "Nem poulet", "desc": "Roulé et frit maison. Croustillant." },
-    "nem-crevette": { "name": "Nem crevette", "desc": "Roulé et frit maison." },
-    "samoussa-crevette": { "name": "Samoussa crevette", "desc": "Petit triangle croustillant." },
-    "box-saveur": { "name": "Box saveur", "desc": "Une viande au choix, sur son riz." },
-    "box-decouverte": { "name": "Box découverte", "desc": "Trois viandes au choix sur riz au curry coco." },
-    "pad-viet": { "name": "Pad viet", "desc": "Nouilles de riz sautées, poulet, omelette." },
-    "poulet-roti": { "name": "Poulet rôti entier", "desc": "Cinq parfums ou curry curcuma. À commander la veille." },
-    "box-grillade": { "name": "Box découverte grillade", "desc": "Brochettes crevettes saté, bœuf cinq parfums, poulet curry citronnelle, émincé de magret de canard." },
-    "formule": { "name": "Formule", "desc": "Un plat, un dessert, une boisson. Le prix dépend du plat choisi : précisez-le en remarque." },
-    "che": { "name": "Chè", "desc": "Le dessert vietnamien au lait de coco, aux fruits." },
-    "fondant": { "name": "Le fondant", "desc": "Maison, selon les jours. Demandez s'il en reste." },
-    "liegeois": { "name": "Liégeois chocolat coco", "desc": "Chocolat, crème, coco." },
-    "crumble": { "name": "Crumble aux fruits", "desc": "Fruits de saison, pâte sablée croustillante." },
-    "boissons": { "name": "Boissons fraîches", "desc": "Le choix du jour vous attend au frigo." }
+    "banh-mi-poulet": {
+      "name": "Banh mi poulet",
+      "desc": "Baguette croustillante, poulet mariné, carottes, coriandre fraîche."
+    },
+    "banh-mi-boeuf": {
+      "name": "Banh mi bœuf",
+      "desc": "Baguette croustillante, bœuf mariné, carottes, coriandre fraîche."
+    },
+    "banh-mi-vege": {
+      "name": "Banh mi végé",
+      "desc": "La même baguette, garnie de légumes."
+    },
+    "bun-boeuf": {
+      "name": "Bo bun bœuf",
+      "desc": "Vermicelles de riz, bœuf sauté, crudités, oignons frits."
+    },
+    "bun-poulet": {
+      "name": "Bun poulet",
+      "desc": "Vermicelles de riz, poulet, crudités, oignons frits."
+    },
+    "bun-vege": {
+      "name": "Bun végétarien",
+      "desc": "Vermicelles de riz, légumes, crudités, oignons frits."
+    },
+    "nem-poulet": {
+      "name": "Nem poulet",
+      "desc": "Roulé et frit maison. Croustillant."
+    },
+    "nem-crevette": {
+      "name": "Nem crevette",
+      "desc": "Roulé et frit maison."
+    },
+    "samoussa-crevette": {
+      "name": "Samoussa crevette",
+      "desc": "Petit triangle croustillant."
+    },
+    "box-saveur": {
+      "name": "Box saveur",
+      "desc": "Une viande au choix, sur son riz."
+    },
+    "box-decouverte": {
+      "name": "Box découverte",
+      "desc": "Trois viandes au choix sur riz au curry coco."
+    },
+    "pad-viet": {
+      "name": "Pad viet",
+      "desc": "Nouilles de riz sautées, poulet, omelette."
+    },
+    "poulet-roti": {
+      "name": "Poulet rôti entier",
+      "desc": "Cinq parfums ou curry curcuma. À commander la veille."
+    },
+    "box-grillade": {
+      "name": "Box découverte grillade",
+      "desc": "Brochettes crevettes saté, bœuf cinq parfums, poulet curry citronnelle, émincé de magret de canard."
+    },
+    "formule": {
+      "name": "Formule",
+      "desc": "Un plat, un dessert, une boisson. Le prix dépend du plat choisi : précisez-le en remarque."
+    },
+    "che": {
+      "name": "Chè",
+      "desc": "Le dessert vietnamien au lait de coco, aux fruits."
+    },
+    "fondant": {
+      "name": "Le fondant",
+      "desc": "Maison, selon les jours. Demandez s'il en reste."
+    },
+    "liegeois": {
+      "name": "Liégeois chocolat coco",
+      "desc": "Chocolat, crème, coco."
+    },
+    "crumble": {
+      "name": "Crumble aux fruits",
+      "desc": "Fruits de saison, pâte sablée croustillante."
+    },
+    "boissons": {
+      "name": "Boissons fraîches",
+      "desc": "Le choix du jour vous attend au frigo."
+    }
   },
   "alt": {
     "banh-mi-terrasse": "Deux banh mi poulet et bœuf sur un plateau, devant l'ardoise de Maily, rue de Beauvais",
     "banh-mi": "Deux banh mi garnis de carottes et de coriandre fraîche",
     "bo-bun": "Bo bun au bœuf et oignons frits dans la vitrine de Maily",
-    "baguettes-coriandre": "Baguettes dorées et botte de coriandre sur le plan de travail"
+    "baguettes-coriandre": "Baguettes dorées et botte de coriandre sur le plan de travail de Maily",
+    "mise-en-place": "La mise en place chez Maily : carottes, concombre, bœuf et poulet marinés, riz gluant",
+    "banh-mi-poulet": "Un banh mi dans son papier, tenu devant la vitrine de Maily",
+    "formule": "Un banh mi dans son papier, tenu devant la vitrine de Maily",
+    "banh-mi-boeuf": "Banh mi bœuf cinq parfums garnis de carottes, concombre, coriandre et cacahuètes, chez Maily",
+    "banh-mi-vege": "Photo d'illustration : banh mi garni de crudités et d'herbes fraîches",
+    "bun-poulet": "Photo d'illustration : vermicelles de riz, viande grillée et sauce nuoc-mâm",
+    "bun-vege": "Photo d'illustration : bol de nouilles aux légumes croquants",
+    "nems": "Photo d'illustration : nems croustillants coupés, farce de légumes",
+    "nems-crevette": "Photo d'illustration : nems dorés sur feuille de bananier",
+    "samoussas": "Photo d'illustration : samoussas frits",
+    "box-saveur": "Photo d'illustration : barquette de riz et viande sautée",
+    "box-decouverte": "Photo d'illustration : boîte à emporter garnie",
+    "pad-viet": "Photo d'illustration : nouilles sautées aux légumes",
+    "poulet-roti": "Photo d'illustration : poulet rôti doré sur la grille",
+    "box-grillade": "Photo d'illustration : brochettes grillées et sauce saté",
+    "che": "Photo d'illustration : dessert aux fruits et crème de coco",
+    "fondant": "Photo d'illustration : fondant au chocolat coulant",
+    "liegeois": "Photo d'illustration : verrine chocolat et crème",
+    "crumble": "Photo d'illustration : crumbles individuels",
+    "boissons": "Photo d'illustration : thé glacé au citron vert",
+    "plateau": "Photo d'illustration : buffet traiteur"
   },
   "pages": {
     "carte": {
@@ -291,8 +396,13 @@
           "text": "Commandez sur le site, choisissez l'heure, la commande part sur WhatsApp. Vous passez au 17 rue de Beauvais, c'est prêt."
         }
       ],
-      "items": ["banh-mi-poulet", "banh-mi-boeuf", "banh-mi-vege", "nem-poulet"],
-      "photo": "/media/plats/banh-mi.jpg"
+      "items": [
+        "banh-mi-poulet",
+        "banh-mi-boeuf",
+        "banh-mi-vege",
+        "nem-poulet"
+      ],
+      "photo": "/media/boutique/mise-en-place.jpg"
     },
     "boBun": {
       "slug": "bo-bun-amiens",
@@ -315,7 +425,12 @@
           "text": "Commandez avant de partir, la commande part sur WhatsApp. Au 17 rue de Beauvais, votre bol est prêt."
         }
       ],
-      "items": ["bun-boeuf", "bun-poulet", "bun-vege", "nem-crevette"],
+      "items": [
+        "bun-boeuf",
+        "bun-poulet",
+        "bun-vege",
+        "nem-crevette"
+      ],
       "photo": "/media/plats/bo-bun.jpg"
     },
     "legal": {

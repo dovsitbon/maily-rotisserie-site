@@ -37,7 +37,7 @@ export function ProductCard({ id, wide = false }: { id: ItemId; wide?: boolean }
 
   return (
     <article className={`group card flex bg-paper ring-1 ring-line ${wide ? "flex-col sm:flex-row" : "flex-col"}`}>
-      <Photo paths={it.photo} alt={p.name} illus={it.illus} tint={it.onOrder ? "rice" : "cream"} sizes={wide ? "(min-width: 640px) 40vw, 100vw" : "(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"} className={wide ? "aspect-[4/3] sm:aspect-auto sm:w-2/5" : "aspect-[4/3]"} illusClassName="h-24 w-24" />
+      <Photo paths={it.photo} alt={p.name} alts={d.alt} illus={it.illus} tint={it.onOrder ? "rice" : "cream"} sizes={wide ? "(min-width: 640px) 40vw, 100vw" : "(min-width: 1024px) 30vw, (min-width: 640px) 45vw, 100vw"} className={wide ? "aspect-[4/3] sm:aspect-auto sm:w-2/5" : "aspect-[4/3]"} illusClassName="h-24 w-24" />
       <div className="flex flex-1 flex-col p-5">
         <div className="flex items-start justify-between gap-3">
           <h3 className="display text-[1.375rem] leading-tight">{p.name}</h3>

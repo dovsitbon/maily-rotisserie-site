@@ -19,3 +19,5 @@
 11. **Accord pour reprendre de vrais avis Google** sur le site (data/avis.json).
 12. **Stationnement** le plus proche à conseiller, accès PMR.
 13. **Le numéro 06 95 06 26 14** vu sur un post Instagram (commandes du soir 19 h – 21 h 30) : est-ce encore d'actualité ? Le site n'utilise que le 06 25 65 72 12.
+
+- **Photos** : d'accord pour réutiliser sur le site les photos de vos posts Instagram et Facebook ? Et pouvez-vous envoyer une photo de la devanture et de vos plats (nems, poulet rôti, desserts) pour remplacer les photos d'illustration ?

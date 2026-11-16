@@ -4,8 +4,12 @@
     "description": "Vietnamese rotisserie on rue de Beauvais, Amiens: homemade banh mi, bo bun, spring rolls and roast chicken. 5/5 on Google. Order takeaway on WhatsApp.",
     "ogAlt": "Two Maily banh mi on the terrace, rue de Beauvais in Amiens"
   },
-  "intro": { "skip": "Skip" },
-  "announce": { "close": "Close message" },
+  "intro": {
+    "skip": "Skip"
+  },
+  "announce": {
+    "close": "Close message"
+  },
   "nav": {
     "skip": "Skip to content",
     "home": "Maily, home",
@@ -55,10 +59,22 @@
   "services": {
     "title": "How it works",
     "items": [
-      { "title": "Takeaway", "text": "Lunchtime and late afternoon." },
-      { "title": "WhatsApp ordering", "text": "Your basket goes out in one message." },
-      { "title": "Homemade", "text": "Marinades, spring rolls, desserts: all made here." },
-      { "title": "5/5 on Google", "text": "{count} reviews, all five stars." }
+      {
+        "title": "Takeaway",
+        "text": "Lunchtime and late afternoon."
+      },
+      {
+        "title": "WhatsApp ordering",
+        "text": "Your basket goes out in one message."
+      },
+      {
+        "title": "Homemade",
+        "text": "Marinades, spring rolls, desserts: all made here."
+      },
+      {
+        "title": "5/5 on Google",
+        "text": "{count} reviews, all five stars."
+      }
     ]
   },
   "carte": {
@@ -129,7 +145,15 @@
     "accessText": "Rue de Beauvais, in central Amiens. A small terrace on sunny days. Easiest: order ahead, drop by, leave with your bag.",
     "route": "Directions",
     "mapTitle": "Map to Maily, 17 rue de Beauvais in Amiens",
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
     "closed": "Closed",
     "whatsapp": "Message on WhatsApp",
     "photoNote": "Photo spot: the shopfront"
@@ -227,32 +251,113 @@
     "mangue-fraise": "Mango and strawberry"
   },
   "products": {
-    "banh-mi-poulet": { "name": "Chicken banh mi", "desc": "Crusty baguette, marinated chicken, carrots, fresh coriander." },
-    "banh-mi-boeuf": { "name": "Beef banh mi", "desc": "Crusty baguette, marinated beef, carrots, fresh coriander." },
-    "banh-mi-vege": { "name": "Veggie banh mi", "desc": "The same baguette, filled with vegetables." },
-    "bun-boeuf": { "name": "Beef bo bun", "desc": "Rice vermicelli, stir-fried beef, raw veg, crispy onions." },
-    "bun-poulet": { "name": "Chicken bun", "desc": "Rice vermicelli, chicken, raw veg, crispy onions." },
-    "bun-vege": { "name": "Vegetarian bun", "desc": "Rice vermicelli, vegetables, raw veg, crispy onions." },
-    "nem-poulet": { "name": "Chicken spring roll", "desc": "Rolled and fried in-house. Crispy." },
-    "nem-crevette": { "name": "Prawn spring roll", "desc": "Rolled and fried in-house." },
-    "samoussa-crevette": { "name": "Prawn samosa", "desc": "A small, crispy triangle." },
-    "box-saveur": { "name": "Flavour box", "desc": "One meat of your choice, on rice." },
-    "box-decouverte": { "name": "Discovery box", "desc": "Three meats of your choice on coconut curry rice." },
-    "pad-viet": { "name": "Pad viet", "desc": "Stir-fried rice noodles, chicken, omelette." },
-    "poulet-roti": { "name": "Whole roast chicken", "desc": "Five spices or curry and turmeric. Order the day before." },
-    "box-grillade": { "name": "Grill discovery box", "desc": "Satay prawn skewers, five-spice beef, lemongrass curry chicken, sliced duck breast." },
-    "formule": { "name": "Meal deal", "desc": "A main, a dessert, a drink. The price depends on the main: tell us which in the notes." },
-    "che": { "name": "Chè", "desc": "The Vietnamese coconut milk dessert, with fruit." },
-    "fondant": { "name": "The fondant", "desc": "Homemade, depending on the day. Ask if there's any left." },
-    "liegeois": { "name": "Chocolate coconut liégeois", "desc": "Chocolate, cream, coconut." },
-    "crumble": { "name": "Fruit crumble", "desc": "Seasonal fruit, crunchy topping." },
-    "boissons": { "name": "Cold drinks", "desc": "Today's choice is waiting in the fridge." }
+    "banh-mi-poulet": {
+      "name": "Chicken banh mi",
+      "desc": "Crusty baguette, marinated chicken, carrots, fresh coriander."
+    },
+    "banh-mi-boeuf": {
+      "name": "Beef banh mi",
+      "desc": "Crusty baguette, marinated beef, carrots, fresh coriander."
+    },
+    "banh-mi-vege": {
+      "name": "Veggie banh mi",
+      "desc": "The same baguette, filled with vegetables."
+    },
+    "bun-boeuf": {
+      "name": "Beef bo bun",
+      "desc": "Rice vermicelli, stir-fried beef, raw veg, crispy onions."
+    },
+    "bun-poulet": {
+      "name": "Chicken bun",
+      "desc": "Rice vermicelli, chicken, raw veg, crispy onions."
+    },
+    "bun-vege": {
+      "name": "Vegetarian bun",
+      "desc": "Rice vermicelli, vegetables, raw veg, crispy onions."
+    },
+    "nem-poulet": {
+      "name": "Chicken spring roll",
+      "desc": "Rolled and fried in-house. Crispy."
+    },
+    "nem-crevette": {
+      "name": "Prawn spring roll",
+      "desc": "Rolled and fried in-house."
+    },
+    "samoussa-crevette": {
+      "name": "Prawn samosa",
+      "desc": "A small, crispy triangle."
+    },
+    "box-saveur": {
+      "name": "Flavour box",
+      "desc": "One meat of your choice, on rice."
+    },
+    "box-decouverte": {
+      "name": "Discovery box",
+      "desc": "Three meats of your choice on coconut curry rice."
+    },
+    "pad-viet": {
+      "name": "Pad viet",
+      "desc": "Stir-fried rice noodles, chicken, omelette."
+    },
+    "poulet-roti": {
+      "name": "Whole roast chicken",
+      "desc": "Five spices or curry and turmeric. Order the day before."
+    },
+    "box-grillade": {
+      "name": "Grill discovery box",
+      "desc": "Satay prawn skewers, five-spice beef, lemongrass curry chicken, sliced duck breast."
+    },
+    "formule": {
+      "name": "Meal deal",
+      "desc": "A main, a dessert, a drink. The price depends on the main: tell us which in the notes."
+    },
+    "che": {
+      "name": "Chè",
+      "desc": "The Vietnamese coconut milk dessert, with fruit."
+    },
+    "fondant": {
+      "name": "The fondant",
+      "desc": "Homemade, depending on the day. Ask if there's any left."
+    },
+    "liegeois": {
+      "name": "Chocolate coconut liégeois",
+      "desc": "Chocolate, cream, coconut."
+    },
+    "crumble": {
+      "name": "Fruit crumble",
+      "desc": "Seasonal fruit, crunchy topping."
+    },
+    "boissons": {
+      "name": "Cold drinks",
+      "desc": "Today's choice is waiting in the fridge."
+    }
   },
   "alt": {
     "banh-mi-terrasse": "Two chicken and beef banh mi on a tray, in front of Maily's chalkboard, rue de Beauvais",
     "banh-mi": "Two banh mi filled with carrots and fresh coriander",
     "bo-bun": "Beef bo bun with crispy onions in Maily's display",
-    "baguettes-coriandre": "Golden baguettes and a bunch of coriander on the worktop"
+    "baguettes-coriandre": "Golden baguettes and a bunch of coriander on Maily's worktop",
+    "mise-en-place": "Prep at Maily: carrots, cucumber, marinated beef and chicken, sticky rice",
+    "banh-mi-poulet": "A banh mi in its paper, held in front of Maily's display",
+    "formule": "A banh mi in its paper, held in front of Maily's display",
+    "banh-mi-boeuf": "Five-spice beef banh mi with carrots, cucumber, coriander and peanuts, at Maily",
+    "banh-mi-vege": "Illustration photo: banh mi with crunchy vegetables and fresh herbs",
+    "bun-poulet": "Illustration photo: rice vermicelli, grilled meat and fish sauce dressing",
+    "bun-vege": "Illustration photo: noodle bowl with crunchy vegetables",
+    "nems": "Illustration photo: crispy spring rolls cut open, vegetable filling",
+    "nems-crevette": "Illustration photo: golden spring rolls on a banana leaf",
+    "samoussas": "Illustration photo: fried samosas",
+    "box-saveur": "Illustration photo: rice and stir-fried meat in a takeaway tray",
+    "box-decouverte": "Illustration photo: filled takeaway box",
+    "pad-viet": "Illustration photo: stir-fried noodles with vegetables",
+    "poulet-roti": "Illustration photo: golden roast chicken on the grill",
+    "box-grillade": "Illustration photo: grilled skewers with satay sauce",
+    "che": "Illustration photo: fruit and coconut cream dessert",
+    "fondant": "Illustration photo: molten chocolate cake",
+    "liegeois": "Illustration photo: chocolate and cream dessert cup",
+    "crumble": "Illustration photo: individual crumbles",
+    "boissons": "Illustration photo: iced tea with lime",
+    "plateau": "Illustration photo: catering buffet"
   },
   "pages": {
     "carte": {
@@ -291,8 +396,13 @@
           "text": "Order on the site, pick a time, the order goes out on WhatsApp. Drop by 17 rue de Beauvais, it's ready."
         }
       ],
-      "items": ["banh-mi-poulet", "banh-mi-boeuf", "banh-mi-vege", "nem-poulet"],
-      "photo": "/media/plats/banh-mi.jpg"
+      "items": [
+        "banh-mi-poulet",
+        "banh-mi-boeuf",
+        "banh-mi-vege",
+        "nem-poulet"
+      ],
+      "photo": "/media/boutique/mise-en-place.jpg"
     },
     "boBun": {
       "slug": "bo-bun-amiens",
@@ -315,7 +425,12 @@
           "text": "Order before you leave, it goes out on WhatsApp. At 17 rue de Beauvais, your bowl is ready."
         }
       ],
-      "items": ["bun-boeuf", "bun-poulet", "bun-vege", "nem-crevette"],
+      "items": [
+        "bun-boeuf",
+        "bun-poulet",
+        "bun-vege",
+        "nem-crevette"
+      ],
       "photo": "/media/plats/bo-bun.jpg"
     },
     "legal": {

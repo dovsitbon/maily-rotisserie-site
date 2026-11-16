@@ -27,9 +27,47 @@ const PICKS = [
   ["maily_2025-05-14.jpg", "plats", "banh-mi", { left: 0, top: 1000, width: 1250, height: 800 }],
   // Bo bun bœuf dans la vitrine (février 2026) : recadré sur le bol
   ["maily_2026-02-24.jpg", "plats", "bo-bun", { left: 300, top: 400, width: 1040, height: 1040 }],
-  // Baguettes dorées et botte de coriandre sur le plan de travail (mars 2026, 640 px : à remplacer par une photo HD)
-  ["maily_2026-03-17.jpg", "boutique", "baguettes-coriandre"],
+  // Baguettes dorées et botte de coriandre sur le plan de travail (post « Que faut-il pour un bon banh mi ? », mars 2026, 1440 px)
+  ["ig2/maily_ig_DV_ZIjKiERD_1.jpg", "boutique", "baguettes-coriandre"],
+  // Même post, 2e photo : la mise en place (carottes, concombre, bœuf, poulet, riz gluant)
+  ["ig2/maily_ig_DV_ZIjKiERD_2.jpg", "boutique", "mise-en-place"],
+  // Même post, 3e photo : un banh mi dans son papier, tenu devant la vitrine
+  ["ig2/maily_ig_DV_ZIjKiERD_3.jpg", "plats", "banh-mi-poulet"],
+  ["ig2/maily_ig_DV_ZIjKiERD_3.jpg", "plats", "formule"],
+  // Banh mi bœuf cinq parfums (Facebook, nov. 2025) : recadré sous le texte incrusté
+  ["ig2/maily_fb_banhmi_boeuf.jpg", "plats", "banh-mi-boeuf", { left: 0, top: 1150, width: 1178, height: 898 }],
 ];
+
+// Photos libres de droits (licence Unsplash : usage commercial autorisé, sans attribution obligatoire ; crédits dans
+// PHOTOS-SOURCES.md). Ce sont des ILLUSTRATIONS, jamais présentées comme Maily : remplacez-les par vos photos
+// (même nom dans assets/<catégorie>/) dès que possible ; un fichier présent n'est jamais écrasé.
+// [id images.unsplash.com, catégorie, nom]
+const STOCK = [
+  ["1677354469642-3e4fc5dbbb4a", "plats", "banh-mi-vege"],
+  ["1583316175701-0bc5f25a0a44", "plats", "bun-poulet"],
+  ["1565976469782-7c92daebc42e", "plats", "bun-vege"],
+  ["1695712641569-05eee7b37b6d", "plats", "nems"],
+  ["1695712641388-87c0f9c2d36e", "plats", "nems-crevette"],
+  ["1666190091090-1d312a4b04c2", "plats", "samoussas"],
+  ["1616645258469-ec681c17f3ee", "plats", "box-saveur"],
+  ["1652862729869-2f4e80c1849d", "plats", "box-decouverte"],
+  ["1585032226651-759b368d7246", "plats", "pad-viet"],
+  ["1630564510761-a560db92a09b", "plats", "poulet-roti"],
+  ["1696385793103-71f51f6fd3b7", "plats", "box-grillade"],
+  ["1703763253190-4af44c87a23e", "plats", "che"],
+  ["1617305855058-336d24456869", "plats", "fondant"],
+  ["1769434129307-33ecda53c1ed", "plats", "liegeois"],
+  ["1737217900803-b0660f451353", "plats", "crumble"],
+  ["1556679343-c7306c1976bc", "plats", "boissons"],
+  ["1555244162-803834f70033", "boutique", "plateau"],
+];
+for (const [id, cat, name] of STOCK) {
+  const out = path.join(ROOT, "assets", cat, `${name}.jpg`);
+  if (await exists(out)) continue;
+  const r = await fetch(`https://images.unsplash.com/photo-${id}?w=1600&q=85&fm=jpg`);
+  if (!r.ok) throw new Error(`Unsplash ${id} : ${r.status}`);
+  await writeFile(out, Buffer.from(await r.arrayBuffer()));
+}
 
 for (const [file, cat, name, crop] of PICKS) {
   const out = path.join(ROOT, "assets", cat, `${name}.jpg`);

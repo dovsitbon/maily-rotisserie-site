@@ -3,6 +3,18 @@
   1440,
   1800
  ],
+ "/media/plats/banh-mi-boeuf.jpg": [
+  1178,
+  898
+ ],
+ "/media/plats/banh-mi-poulet.jpg": [
+  1440,
+  1440
+ ],
+ "/media/plats/banh-mi-vege.jpg": [
+  1265,
+  1600
+ ],
  "/media/plats/banh-mi.jpg": [
   1250,
   800
@@ -11,8 +23,80 @@
   1040,
   1040
  ],
+ "/media/plats/boissons.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/box-decouverte.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/box-grillade.jpg": [
+  1600,
+  1063
+ ],
+ "/media/plats/box-saveur.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/bun-poulet.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/bun-vege.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/che.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/crumble.jpg": [
+  1096,
+  1600
+ ],
+ "/media/plats/fondant.jpg": [
+  1600,
+  1600
+ ],
+ "/media/plats/formule.jpg": [
+  1440,
+  1440
+ ],
+ "/media/plats/liegeois.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/nems-crevette.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/nems.jpg": [
+  1600,
+  1067
+ ],
+ "/media/plats/pad-viet.jpg": [
+  1600,
+  1342
+ ],
+ "/media/plats/poulet-roti.jpg": [
+  1067,
+  1600
+ ],
+ "/media/plats/samoussas.jpg": [
+  1600,
+  1067
+ ],
  "/media/boutique/baguettes-coriandre.jpg": [
-  640,
-  640
+  1440,
+  1440
+ ],
+ "/media/boutique/mise-en-place.jpg": [
+  1440,
+  1440
+ ],
+ "/media/boutique/plateau.jpg": [
+  1600,
+  1067
  ]
 }

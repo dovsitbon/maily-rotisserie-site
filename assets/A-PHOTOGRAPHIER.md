@@ -3,11 +3,14 @@
 Déposez chaque photo sous le nom indiqué, puis lancez `npm run media` : le dessin de remplacement disparaît tout seul.
 Lumière du jour, plat vu de trois quarts ou du dessus, fond simple. Pas de visage de client.
 
-## Déjà en ligne (tirées d'Instagram)
+## Déjà en ligne (tirées d'Instagram et Facebook)
 - `hero/banh-mi-terrasse.jpg` : les deux banh mi devant l'ardoise (l'ardoise affiche un ancien prix, 5,50 €)
-- `plats/banh-mi.jpg` : recadrage de la même photo
-- `plats/bo-bun.jpg` : bo bun bœuf dans la vitrine
-- `boutique/baguettes-coriandre.jpg` : baguettes et coriandre (640 px seulement : **à refaire en grand**)
+- `plats/banh-mi.jpg`, `plats/bo-bun.jpg`, `plats/banh-mi-poulet.jpg`, `plats/banh-mi-boeuf.jpg`, `plats/formule.jpg`
+- `boutique/baguettes-coriandre.jpg`, `boutique/mise-en-place.jpg`
+
+## Photos d'illustration à remplacer en priorité
+Les autres plats affichent pour l'instant une photo libre de droits (liste et crédits dans PHOTOS-SOURCES.md).
+Remplacez le fichier du même nom dans `assets/plats/` ou `assets/boutique/` par votre photo, puis `npm run media`.
 
 ## À prendre
 | Fichier | Sujet |

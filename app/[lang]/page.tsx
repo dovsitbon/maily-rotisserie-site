@@ -140,7 +140,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
             return (
               <div key={b.eyebrow} className="grid items-center gap-8 md:grid-cols-2 md:gap-16">
                 <Reveal className={i % 2 ? "md:order-2" : ""}>
-                  <Photo paths={k.photo} alt={i === 1 ? altOf(d, "/media/boutique/baguettes-coriandre.jpg") : b.eyebrow} illus={k.illus} tint={k.tint} note={"photoNote" in b ? b.photoNote : undefined} sizes="(min-width: 768px) 46vw, 100vw" className="card aspect-[4/3] md:aspect-[5/4]" />
+                  <Photo paths={k.photo} alt={b.eyebrow} alts={d.alt} illus={k.illus} tint={k.tint} note={"photoNote" in b ? b.photoNote : undefined} sizes="(min-width: 768px) 46vw, 100vw" className="card aspect-[4/3] md:aspect-[5/4]" />
                 </Reveal>
                 <Reveal delay={0.05}>
                   <p className="eyebrow">{b.eyebrow}</p>

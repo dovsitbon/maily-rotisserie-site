@@ -25,6 +25,7 @@ export function Photo({
   priority = false,
   note,
   illusClassName = "h-1/2 w-1/2 max-h-36 max-w-36",
+  alts,
 }: {
   paths: readonly string[];
   alt: string;
@@ -36,8 +37,11 @@ export function Photo({
   priority?: boolean;
   note?: string;
   illusClassName?: string;
+  /** Textes alternatifs par nom de fichier (locales → alt) : décrit la photo réellement affichée. */
+  alts?: Record<string, string>;
 }) {
   const p = firstImg(paths);
+  if (p && alts) alt = alts[p.src.split("/").pop()!.replace(/\.\w+$/, "")] ?? alt;
   if (p)
     return (
       <div className={`zoom bg-cream-deep ${className}`}>

@@ -129,7 +129,7 @@ function Landing({ lang, d, id }: { lang: Locale; d: Dict; id: "banhMi" | "boBun
               </Link>
             </div>
           </div>
-          <Photo paths={[p.photo]} alt={d.alt[id === "banhMi" ? "banh-mi" : "bo-bun"]} illus={id === "banhMi" ? "banhmi" : "bowl"} sizes="(min-width: 768px) 46vw, 100vw" priority className="card aspect-[4/3]" />
+          <Photo paths={[p.photo]} alt={p.title} alts={d.alt} illus={id === "banhMi" ? "banhmi" : "bowl"} sizes="(min-width: 768px) 46vw, 100vw" priority className="card aspect-[4/3]" />
         </header>
         <div className="mt-16 grid gap-10 md:grid-cols-3">
           {p.sections.map((s) => (
